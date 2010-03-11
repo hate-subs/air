@@ -10,11 +10,26 @@ ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
 Video Zoom: 6
 Video Position: 0
-Audio File: audiodump.wav
+Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Default,Times New Roman,30,&H00E7E7E7,&H000000FF,&H008B312B,&H96FF0000,0,0,0,0,110,100,0,0,1,2,2,2,10,10,10,1
+Style: Intro_text,Times New Roman,36,&H00FCB9A2,&H000000FF,&H00FF0A00,&H78000000,0,0,0,0,120,100,0,0,1,2,2,2,10,10,10,1
+Style: Yukito,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00755554,&H96FF0000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: air_title,Century Gothic,70,&H00000000,&H00E7E7E7,&H00E7E7E7,&H004E3100,0,0,0,0,100,100,0,0,1,2,4,2,10,10,10,1
+Style: series_title,Times New Roman,40,&H00B65244,&H000000FF,&H00E7E7E7,&H00000000,-1,0,0,0,100,100,20,0,1,0,0,2,10,10,10,1
+Style: Misuzu,Times New Roman,30,&H009DE5F5,&H000000FF,&H004B4B54,&H96FFFFFF,0,0,0,0,110,100,0,0,1,3,3,2,10,10,10,1
+Style: Haruko,Times New Roman,30,&H00FFFFFF,&H000000FF,&H003B5178,&H96FF0000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: osd,Arial,25,&H00060606,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: Potato,Arial,30,&H00E4FEFC,&H000000FF,&H00060606,&H64191928,0,0,0,0,110,100,0,0,1,1,2,2,10,10,10,1
+Style: Kano,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00BB4030,&H7D000000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: Touno,Times New Roman,30,&H00EBC7FF,&H000000FF,&H00272851,&H64FFFFFF,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: Michiru,Times New Roman,30,&H00FFFFFF,&H000000FF,&H003345C3,&H96000000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: comment,Times New Roman,30,&H00E7E7E7,&H000000FF,&H00822B8B,&H96FF0000,0,0,0,0,110,100,0,0,1,2,2,8,10,10,10,1
+Style: Kirishima_Hijiri,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00A57169,&H7D000000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: Touno_Okaasan,Times New Roman,30,&H009898D3,&H000000FF,&H00272851,&H64FFFFFF,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
+Style: Saika,Times New Roman,30,&H00FFFFFF,&H002BE900,&H000F7602,&H96000000,0,0,0,0,110,100,0,0,1,3,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -29,14 +44,14 @@ Dialogue: 0,0:00:29.10,0:00:29.77,Default,,0000,0000,0000,,Пико.
 Dialogue: 0,0:00:29.93,0:00:30.94,Default,,0000,0000,0000,,Пико-пико.
 Dialogue: 0,0:00:31.94,0:00:33.12,Default,,0000,0000,0000,,Пико-пико-пико.
 Dialogue: 0,0:00:33.24,0:00:34.05,Default,,0000,0000,0000,,Пико!
-Dialogue: 0,0:00:49.81,0:00:56.35,Default,,0000,0000,0000,,В ы с ь
+Dialogue: 0,0:00:49.81,0:00:56.35,air_title,,0000,0000,0000,,В ы с ь
 Dialogue: 0,0:02:06.41,0:02:11.04,Default,,0000,0000,0000,,След останется на некоторое время.
 Dialogue: 0,0:02:11.48,0:02:13.41,Default,,0000,0000,0000,,Простите нас за хлопоты, Кунисаки-кун.
 Dialogue: 0,0:02:13.86,0:02:14.61,Default,,0000,0000,0000,,Камио-сан.
 Dialogue: 0,0:02:14.99,0:02:15.86,Default,,0000,0000,0000,,А.. Ничего.
 Dialogue: 0,0:02:16.05,0:02:18.10,Default,,0000,0000,0000,,Мы все-равно ничего не сделали...
 Dialogue: 0,0:02:25.25,0:02:28.50,Default,,0000,0000,0000,,Это произошло, ещё когда Кано была маленькой.
-Dialogue: 0,0:02:29.04,0:02:32.39,Default,,0000,0000,0000,,Глава 4. Перо.
+Dialogue: 0,0:02:29.04,0:02:32.39,series_title,,0000,0000,0000,,Глава 4. Перо.
 Dialogue: 0,0:02:33.43,0:02:36.01,Default,,0000,0000,0000,,Это было первое лето, после смерти матери.
 Dialogue: 0,0:02:42.85,0:02:43.34,Default,,0000,0000,0000,,А!...
 Dialogue: 0,0:02:43.67,0:02:44.53,Default,,0000,0000,0000,,Смотри, смотри.
